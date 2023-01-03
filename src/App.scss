@@ -20,16 +20,58 @@
 	}
 
 	.text {
-		padding: 10px;
 		text-align: right;
+		padding: 10px;
+	}
+
+	.home {
+		float: left;
+		padding: 10px;
+	}
+
+	.body {
+		height: 100vh;
+		width: 100vw;
 	}
 
 	.login {
+		float: left;
+		width: 50%;
+		height: 100%;
 		color: rgb(17, 82, 17);
 	}
 
 	.title {
 		text-align: left;
 		padding: 30px;
+	}
+
+	.username {
+		margin-left: 5%;
+	}
+
+	.picture {
+		float: right;
+		width: 50%;
+		height: 100%;
+		position: relative;
+	}
+
+	.rectangle1 {
+		border: 1px solid black;
+		width: 200px;
+		height: 200px;
+		position: absolute;
+    left: 50px;
+    top: 50px;
+	}
+
+	.rectangle2 {
+		border: 1px solid black;
+		width: 200px;
+		height: 200px;
+		position: absolute;
+    left: 150px;
+    top: 150px;
 	}
 }

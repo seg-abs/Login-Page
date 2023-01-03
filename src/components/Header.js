@@ -2,8 +2,8 @@ import { React } from 'react';
 
 const Header = () =>
 	<div className="header">
-		<span>Home icon</span>
-		<span className="text">Login / Register</span>
+		<div className="home">Home icon</div>
+		<div className="text">Login / Register</div>
 	</div>;
 
 export default Header;
