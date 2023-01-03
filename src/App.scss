@@ -74,8 +74,24 @@
 	.loginbutton {
 		color: white;
 		background-color: rgba(79,191,161,1);
-		width: 250px;
+		width: 310px;
 		height: 35px;
-		border-radius: 10px;
+		border-radius: 0px;
 	}
+
+.textBox{
+	width: 300px;
+	height: 35px;
+}
+
+.checkbox{
+	float: left;
+	width: 130px ;
+	height: 20px;
+}
+
+.box {
+	width: 310px;
+	height: 35px;
+}
 }

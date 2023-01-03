@@ -1,12 +1,12 @@
 import { React } from 'react';
 
-const Username = () =>
+const Password = () =>
 	<div className="margin">
 		<input
 			className="textBox"
-			type="text"
-			placeholder="Username Or Email*"
+			type="password"
+			placeholder="Password*"
 		/>
 	</div>;
 
-export default Username;
+export default Password;
