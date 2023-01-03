@@ -1,11 +1,11 @@
 import { React } from 'react';
 import Login from './Login';
-import Picture from './Picture';
+import Banner from './Banner';
 
 const Body = () =>
 	<div className="body">
 		<Login/>
-		<Picture/>
+		<Banner/>
 	</div>;
 
 export default Body;
