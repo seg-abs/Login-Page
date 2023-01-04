@@ -26,13 +26,17 @@
 
 	.home {
 		float: left;
-		padding: 10px;
+		padding-top: 10px;
+		padding-left: 10px;
+		width: 30px;
+		height: 30px;
 	}
 
-	.login {
+	.section {
 		float: left;
-		width: 50%;
+		width: 40%;
 		height: 100%;
+		margin-left: 10%;
 	}
 
 	.title {
@@ -53,7 +57,7 @@
 		position: relative;
 	}
 
-	.rectangle1 {
+	.frame1 {
 		border: 1px solid black;
 		width: 200px;
 		height: 200px;
@@ -62,7 +66,7 @@
     top: 50px;
 	}
 
-	.rectangle2 {
+	.frame2 {
 		border: 1px solid black;
 		width: 200px;
 		height: 200px;
@@ -71,17 +75,22 @@
     top: 150px;
 	}
 
-	.loginbutton {
+	.loginButton {
+		box-shadow: 0px 0px 4px 3px rgba(96, 97, 96, 0.24);
 		color: white;
 		background-color: rgba(79,191,161,1);
 		width: 310px;
 		height: 35px;
-		border-radius: 0px;
+		border-radius: 5px;
+		border-style: none;
 	}
 
 .textBox{
+	box-shadow: 0px 0px 4px 3px rgba(96, 97, 96, 0.24);
 	width: 300px;
 	height: 35px;
+	border-radius: 5px;
+	border-style: none;
 }
 
 .checkbox{
@@ -94,4 +103,9 @@
 	width: 310px;
 	height: 35px;
 }
+
+.center {
+	padding: 35px;
+}
+
 }

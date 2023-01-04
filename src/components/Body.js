@@ -1,10 +1,10 @@
 import { React } from 'react';
-import Login from './Login';
+import Section from './Section';
 import Banner from './Banner';
 
 const Body = () =>
 	<div className="body">
-		<Login/>
+		<Section/>
 		<Banner/>
 	</div>;
 

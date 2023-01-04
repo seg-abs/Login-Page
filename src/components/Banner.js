@@ -2,8 +2,8 @@ import { React } from 'react';
 
 const Banner = () =>
 	<div className="banner">
-		<div className="rectangle1"/>
-		<div className="rectangle2"/>
+		<div className="frame1"/>
+		<div className="frame2"/>
 	</div>;
 
 export default Banner;
