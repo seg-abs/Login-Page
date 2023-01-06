@@ -1,7 +1,9 @@
 import { React } from 'react';
 
 const Register = () =>
-	<div className="margin">
-		<span className="center">Create Account Register Here</span></div>;
+	<div className="center">
+		<a href="http://www.google.com">
+			<span className="center color"> Create Account Register Here</span>
+		</a></div>;
 
 export default Register;

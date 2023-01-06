@@ -9,7 +9,10 @@ const Header = () =>
 				src={ homeIcon }
 				alt="home icon"
 			/></div>
-		<div className="text">Login / Register</div>
+		<div className="text">
+			<a href="http://www.google.com">
+				<span className="color"> Login/Register</span>
+			</a></div>
 	</div>;
 
 export default Header;

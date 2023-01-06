@@ -1,11 +1,11 @@
 import { React } from 'react';
-import Section from './Section';
-import Banner from './Banner';
+import BodySection from './BodySection';
+import ImageSection from './ImageSection';
 
 const Body = () =>
 	<div className="body">
-		<Section/>
-		<Banner/>
+		<BodySection/>
+		<ImageSection/>
 	</div>;
 
 export default Body;

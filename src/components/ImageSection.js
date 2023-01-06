@@ -1,9 +1,9 @@
 import { React } from 'react';
 
-const Banner = () =>
+const ImageSection = () =>
 	<div className="banner">
 		<div className="frame1"/>
 		<div className="frame2"/>
 	</div>;
 
-export default Banner;
+export default ImageSection;

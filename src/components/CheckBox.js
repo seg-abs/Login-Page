@@ -1,6 +1,7 @@
 import { React } from 'react';
 
 const CheckBox = () =>
+
 	<div className="checkbox">
 		<input
 			type="CheckBox"
