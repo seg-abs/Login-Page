@@ -9,7 +9,7 @@ import Username from './Username';
 
 const BodySection = () =>
 	<div className="section">
-		<div className="container"><Title/>
+		<div><Title/>
 			<Username/>
 			<Password/>
 			<LoginButton/>
