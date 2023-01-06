@@ -41,12 +41,11 @@
 
 	.title {
 		text-align: left;
-		padding: 30px;
-		color: rgba(79,191,161,1)
+		color: rgba(79, 191, 161, 1)
 	}
 
 	.margin {
-		margin-top: 5%;
+		margin-top: 10%;
 	}
 
 	.banner {
@@ -61,8 +60,8 @@
 		width: 200px;
 		height: 200px;
 		position: absolute;
-    left: 50px;
-    top: 50px;
+		left: 50px;
+		top: 50px;
 	}
 
 	.frame2 {
@@ -70,50 +69,48 @@
 		width: 200px;
 		height: 200px;
 		position: absolute;
-    left: 150px;
-    top: 150px;
+		left: 150px;
+		top: 150px;
 	}
 
 	.loginButton {
 		box-shadow: 0px 0px 4px 3px rgba(96, 97, 96, 0.24);
 		color: white;
-		background-color: rgba(79,191,161,1);
+		background-color: rgba(79, 191, 161, 1);
 		width: 305px;
 		height: 35px;
 		border-radius: 5px;
 		border-style: none;
 	}
 
-.textBox{
-	box-shadow: 0px 0px 4px 3px rgba(96, 97, 96, 0.24);
-	width: 300px;
-	height: 45px;
-	border-radius: 5px;
-	border-style: none;
-}
+	.textBox {
+		box-shadow: 0px 0px 4px 3px rgba(96, 97, 96, 0.24);
+		width: 300px;
+		height: 55px;
+		border-radius: 5px;
+		border-style: none;
+	}
 
-.checkbox{
-	float: left;
-	width: 130px ;
-	height: 20px;
-}
+	.checkbox {
+		float: left;
+		width: 130px;
+		height: 20px;
+	}
 
-.box {
-	width: 310px;
-	height: 35px;
-}
+	.box {
+		width: 310px;
+		height: 35px;
+	}
 
-.center {
-	padding: 25px;
-}
 
-.color{
+	.color {
 
-	color: rgba(79,191,161,1)
-}
+		color: rgba(79, 191, 161, 1)
+	}
 
-.container{
 
-margin: auto;
-}
+	.register{
+
+		text-align: center;
+	}
 }
