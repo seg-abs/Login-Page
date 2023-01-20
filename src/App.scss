@@ -17,6 +17,9 @@
 	.header {
 		border: 1px solid black;
 		height: 50px;
+		display:flex;
+		justify-content: space-between;
+
 	}
 
 	.text {
@@ -25,7 +28,6 @@
 	}
 
 	.home {
-		float: left;
 		padding-top: 10px;
 		padding-left: 10px;
 		width: 30px;
@@ -35,12 +37,14 @@
 	.section {
 		width: 50%;
 		height: 100%;
+		display: flex;
+		justify-content: center;
+
 	}
 
 	.loginSection{
 
 		width: 50%;
-		margin:auto;
 	}
 
 	.title {
@@ -121,6 +125,5 @@
 	.body{
 
 		display: flex;
-		flex-direction: row;
 	}
 }

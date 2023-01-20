@@ -15,7 +15,7 @@ const BodySection = () =>
 			<LoginButton/>
 			<PasswordAssistance/>
 			<Register/>
-		</div>;
+		</div>
 	</div>;
 
 export default BodySection;
