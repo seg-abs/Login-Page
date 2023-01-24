@@ -6,9 +6,9 @@ import Register from './Register';
 import Title from './Title';
 import Username from './Username';
 
-const BodySection = () =>
+const LoginSection = () =>
 	<div className="section">
-		<div className="loginSection">
+		<div className="LoginSection">
 			<Title/>
 			<Username/>
 			<Password/>
@@ -18,4 +18,4 @@ const BodySection = () =>
 		</div>
 	</div>;
 
-export default BodySection;
+export default LoginSection;

@@ -1,10 +1,10 @@
 import { React } from 'react';
-import BodySection from './BodySection';
+import LoginSection from './LoginSection';
 import ImageSection from './ImageSection';
 
 const Body = () =>
 	<div className="body">
-		<BodySection/>
+		<LoginSection/>
 		<ImageSection/>
 	</div>;
 

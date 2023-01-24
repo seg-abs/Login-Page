@@ -5,7 +5,7 @@ const Password = () =>
 		<input
 			className="textBox"
 			type="password"
-			placeholder="Password*"
+			placeholder=" Password*"
 		/>
 	</div>;
 

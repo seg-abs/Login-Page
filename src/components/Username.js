@@ -5,7 +5,7 @@ const Username = () =>
 		<input
 			className="textBox"
 			type="text"
-			placeholder="Username Or Email*"
+			placeholder=" Username Or Email*"
 		/>
 	</div>;
 

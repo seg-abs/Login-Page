@@ -1,8 +1,7 @@
 import { React } from 'react';
 
 const ResetPassword = () =>
-
-	<div style={ { 'text-align': 'right' } }>
+	<div className="alignment">
 		<a href="http://www.google.com">
 			<span className="color">Forgot Password ?</span>
 		</a>
