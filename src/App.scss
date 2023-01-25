@@ -17,19 +17,17 @@
 	.header {
 		border: 1px solid black;
 		height: 50px;
-		display:flex;
+		display: flex;
 		justify-content: space-between;
-
+		padding: 0 1%;
 	}
 
 	.text {
-		text-align: right;
-		padding: 10px;
+		align-self: center;
+
 	}
 
 	.home {
-		padding-top: 10px;
-		padding-left: 10px;
 		width: 30px;
 		height: 30px;
 	}
@@ -42,8 +40,7 @@
 
 	}
 
-	.loginSection{
-
+	.LoginSection {
 		width: 50%;
 	}
 
@@ -110,20 +107,25 @@
 	}
 
 
-	.register{
-
+	.register {
 		text-align: center;
 		width: 100%;
 	}
 
-	.bannerSection{
-
+	.bannerSection {
 		width: 30%;
 		margin-left: 27.5%;
 	}
 
-	.body{
-
+	.body {
 		display: flex;
+	}
+
+	.alignment {
+		text-align: right;
+	}
+
+	.homeIcon {
+		align-self: center;
 	}
 }
