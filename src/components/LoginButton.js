@@ -1,5 +1,6 @@
 import { React } from 'react';
 
-const LoginButton = () => <button className="margin loginButton">Login</button>;
+const LoginButton = () =>
+	<button className="margin loginButton loginBox">Login</button>;
 
 export default LoginButton;

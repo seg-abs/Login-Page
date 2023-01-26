@@ -5,6 +5,7 @@ const CheckBox = () =>
 		<input
 			type="CheckBox"
 		/>
-		<span>Remember me</span></div>;
+		<span>Remember me</span>
+	</div>;
 
 export default CheckBox;
